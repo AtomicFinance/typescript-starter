@@ -11,6 +11,8 @@
     "test:coverage": "NODE_ENV=test nyc yarn test",
     "lint": "eslint --ignore-path .eslintignore -c .eslintrc.js .",
     "lint:fix": "eslint --ignore-path .eslintignore -c .eslintrc.js . --fix",
+    "release": "HUSKY=0 standard-version -a",
+    "changelog": "gitmoji-changelog",
     "prepare": "husky install"
   },
   "keywords": [],
@@ -43,6 +45,7 @@
     "nodemon": "^2.0.16",
     "nyc": "^15.1.0",
     "prettier": "^2.6.2",
+    "standard-version": "^9.3.2",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.4"
   }

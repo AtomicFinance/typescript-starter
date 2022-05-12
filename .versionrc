@@ -1,0 +1,9 @@
+{
+  "skip": {
+    "changelog": true
+  },
+  "scripts": {
+    "postbump": "yarn changelog && git add CHANGELOG.md"
+  },
+  "releaseCommitMessageFormat": "🔖 chore(release): {{currentTag}}"
+}
