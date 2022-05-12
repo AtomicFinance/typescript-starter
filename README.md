@@ -56,6 +56,14 @@ docker compose up --build
 yarn test
 ```
 
+## 🔖 Release
+
+This command will automatically bump the tags and generate a changelog for you
+
+```sh
+yarn release
+```
+
 ## 👤 Authors
 
 - **Atomic.Finance, Inc.**
