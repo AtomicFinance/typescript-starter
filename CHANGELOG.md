@@ -1,5 +1,13 @@
 # Changelog
 
+<a name="1.0.2"></a>
+## 1.0.2 (2022-05-12)
+
+### Miscellaneous
+
+- 📝 docs: update readme to include release [5da3ebb]
+
+
 <a name="1.0.1"></a>
 ## 1.0.1 (2022-05-12)
 
