@@ -7,8 +7,8 @@
     "start": "yarn build && NODE_ENV=production node -r dotenv-safe/config dist/index.js",
     "build": "swc src -d dist",
     "dev": "nodemon",
-    "test": "mocha",
-    "test:coverage": "nyc yarn test",
+    "test": "NODE_ENV=test mocha",
+    "test:coverage": "NODE_ENV=test nyc yarn test",
     "lint": "eslint --ignore-path .eslintignore -c .eslintrc.js .",
     "lint:fix": "eslint --ignore-path .eslintignore -c .eslintrc.js . --fix"
   },
@@ -40,6 +40,7 @@
     "nodemon": "^2.0.16",
     "nyc": "^15.1.0",
     "prettier": "^2.6.2",
+    "ts-node": "^10.7.0",
     "typescript": "^4.6.4"
   }
 }
